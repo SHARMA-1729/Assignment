@@ -29,7 +29,20 @@ To practice this lesson, you need to have the following:
 *Optionally, VsCode and a nice cup of tea ☕️
 ## Installation
 
-Install my-project with npm
+server.js
+```bash
+ $    npm init -y
+```
+```bash
+ $    npm install cors
+```
+```bash
+ $    npm install express
+```
+```bash
+ $    npm install dotenv
+```
+
 
 ```bash
  $    npm install prisma -D
@@ -147,4 +160,29 @@ First, go ahead and install Prisma Client in your project by opening up your ter
 
 ```bash
  $    npm install @prisma/client
+```
+```bash
+ $    npm install prisma -D
+```
+## Server Start
+
+```bash
+ $    npm install
+```
+## Frontend
+assignmet
+
+```bash
+ $    npm install -y
+```
+for node module instation
+```bash
+ $    npm install express
+```
+for express intalation
+
+## Frontend Start
+
+```bash
+ $    npm start
 ```
