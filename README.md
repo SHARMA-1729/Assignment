@@ -1,7 +1,14 @@
 
 # Project Title
-Assignment
+Assignment->Employee Status
 
+
+
+## Tech Stack
+
+**Client:** React,BootStrap,CSS,
+
+**Server:** Node, Express,Prisma,Prisma Client,PostgreSQL
 
 
 ## Introduction
@@ -175,14 +182,38 @@ assignmet
 ```bash
  $    npm install -y
 ```
+
+
+The -y flag when passed to NPM commands tells the generator to use the defaults instead of asking the usual questions.
 for node module instation
 ```bash
  $    npm install express
 ```
 for express intalation
 
+
 ## Frontend Start
 
 ```bash
  $    npm start
 ```
+To run frontend server
+## Deployment
+##  Screenshot
+
+![Screenshot 2024-05-21 133009](https://github.com/SHARMA-1729/Assignment/assets/129518514/628af7f8-dd30-442c-9abe-9df327ed4157)
+
+
+
+![Screenshot 2024-05-21 133030](https://github.com/SHARMA-1729/Assignment/assets/129518514/8e570306-09b6-4503-bf31-1899532ef526)
+
+
+
+
+
+
+![Screenshot 2024-05-21 133056](https://github.com/SHARMA-1729/Assignment/assets/129518514/786c7adb-883f-40b1-aa80-71f443bd0bd7)
+
+
+
+![Screenshot 2024-05-21 133133](https://github.com/SHARMA-1729/Assignment/assets/129518514/ab7e06c9-1677-4592-b4a2-d8025dc5ba8e)
