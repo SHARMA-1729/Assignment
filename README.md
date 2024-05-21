@@ -1,7 +1,14 @@
 
 # Project Title
-Assignment
+Assignment->Employee Status
 
+
+
+## Tech Stack
+
+**Client:** React,BootStrap,CSS,
+
+**Server:** Node, Express,Prisma,Prisma Client,PostgreSQL
 
 
 ## Introduction
@@ -175,14 +182,20 @@ assignmet
 ```bash
  $    npm install -y
 ```
+
+
+The -y flag when passed to NPM commands tells the generator to use the defaults instead of asking the usual questions.
 for node module instation
 ```bash
  $    npm install express
 ```
 for express intalation
 
+
 ## Frontend Start
 
 ```bash
  $    npm start
 ```
+To run frontend server
+## Deployment
