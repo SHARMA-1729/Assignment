@@ -43,10 +43,24 @@ const AddEmployee = () => {
     };
 
     return (
-        <div className="max-w-lg mx-auto my-10 bg-white p-8 rounded-lg sm:shadow sm:border">
-            <form onSubmit={saveEmployee}>
-                <div className="mb-6">
-                    <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+        <div style={{ 
+            listStyleType: 'none', 
+            padding: 0, 
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            backgroundColor: 'black',
+            color: '#f5f6f7',
+            fontFamily: 'Tahoma'
+        }} >
+            <h1>Employee Data Entry</h1>
+            <form   style={{ backgroundColor: 'black'}} onSubmit={saveEmployee}>
+                <div className="">
+                    <label htmlFor="name" style={{ 
+                textAlign: 'center',
+                color: 'white',
+               
+            }}>
                         Name
                     </label>
                     <input
@@ -54,7 +68,13 @@ const AddEmployee = () => {
                         id="name"
                         value={name}
                         onChange={e => setName(e.target.value)}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        style={{display: "block",
+                            margin: "5px 0 20px 0",
+                            minHeight: "2em",
+                            backgroundColor: "#0a0a23",
+                            border: "1px solid #0a0a23",
+                            color: "white",
+                        width:"650px"}}
                         placeholder="Employee name"
                         required
                     />
@@ -68,7 +88,13 @@ const AddEmployee = () => {
                         id="email"
                         value={email}
                         onChange={e => setEmail(e.target.value)}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        style={{display: "block",
+                        margin: "5px 0 20px 0",
+                        minHeight: "2em",
+                        backgroundColor: "#0a0a23",
+                        border: "1px solid #0a0a23",
+                        color: "#ffffff",
+                    width:"650px"}}
                         placeholder="Employee email"
                         required
                     />
@@ -82,7 +108,13 @@ const AddEmployee = () => {
                         id="phoneNumber"
                         value={phoneNumber}
                         onChange={e => setPhoneNumber(e.target.value)}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        style={{display: "block",
+                        margin: "5px 0 20px 0",
+                        minHeight: "2em",
+                        backgroundColor: "#0a0a23",
+                        border: "1px solid #0a0a23",
+                        color: "#ffffff",
+                    width:"650px"}}
                         placeholder="Employee phone number"
                         required
                     />
@@ -96,7 +128,13 @@ const AddEmployee = () => {
                         id="age"
                         value={age}
                         onChange={e => setAge(e.target.value)}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        style={{display: "block",
+                            margin: "5px 0 20px 0",
+                            minHeight: "2em",
+                            backgroundColor: "#0a0a23",
+                            border: "1px solid #0a0a23",
+                            color: "#ffffff",
+                        width:"650px"}}
                         placeholder="Employee age"
                         required
                     />
@@ -110,7 +148,13 @@ const AddEmployee = () => {
                         id="checkIn"
                         value={checkIn}
                         onChange={e => setCheckIn(e.target.value)}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        style={{display: "block",
+                            margin: "5px 0 20px 0",
+                            minHeight: "2em",
+                            backgroundColor: "#0a0a23",
+                            border: "1px solid #0a0a23",
+                            color: "#ffffff",
+                        width:"650px"}}
                         required
                     />
                 </div>
@@ -123,19 +167,25 @@ const AddEmployee = () => {
                         id="checkOut"
                         value={checkOut}
                         onChange={e => setCheckOut(e.target.value)}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        style={{display: "block",
+                        margin: "5px 0 20px 0",
+                        minHeight: "2em",
+                        backgroundColor: "#0a0a23",
+                        border: "1px solid #0a0a23",
+                        color: "#ffffff",
+                    width:"650px"}}
                         required
                     />
                 </div>
                 <button
                     type="submit"
-                    className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                    style={{width:"20%", border:"2px solid black" , backgroundColor:"green",height:"40px",marginTop:"10px",marginLeft:"10px"}}>
                     Save
                 </button>
                 <Link to="/">
                     <button
                         type="button"
-                        className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                        style={{width:"20%", border:"2px solid black" , backgroundColor:"red",height:"40px",marginTop:"10px",marginLeft:"10px"}}>
                         Cancel
                     </button>
                 </Link>

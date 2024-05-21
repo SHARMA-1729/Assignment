@@ -38,18 +38,52 @@ const Online = () => {
         setError('');
     };
 
+
+    const handleMouseEnter = (event) => {
+        event.target.style.backgroundColor = '#fff';
+        event.target.style.color = '#000';
+    };
+
+    const handleMouseLeave = (event) => {
+        event.target.style.backgroundColor = '';
+        event.target.style.color = '';
+    };
+
     return (
-        <div>
-            <h2>Employee Data</h2>
+        <div    style={{ 
+            listStyleType: 'none', 
+            padding: 0, 
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            backgroundColor: 'black',
+            color: '#f5f6f7',
+            fontFamily: 'Tahoma',
+            width: '100%',
+            height: '100vh',
+        }}>
+            <h2>Employee Timing</h2>
             <label htmlFor="startTime">Start Time:</label>
-            <input type="datetime-local" id="startTime" value={startTime} onChange={(e) => setStartTime(e.target.value)} />
+            <input type="datetime-local" id="startTime" value={startTime} onChange={(e) => setStartTime(e.target.value)}  style={{width:"50%"}} />
             <label htmlFor="endTime">End Time:</label>
-            <input type="datetime-local" id="endTime" value={endTime} onChange={(e) => setEndTime(e.target.value)} />
-            <button onClick={filterDataByInterval}>Fetch Data</button>
+            <input type="datetime-local" id="endTime" value={endTime} onChange={(e) => setEndTime(e.target.value)}  style={{width:"50%"}} />
+            <button onClick={filterDataByInterval}     style={{width:"10%", border:"2px solid black" , backgroundColor:"blue",height:"40px",marginTop:"10px",marginLeft:"10px"}}>Fetch Data</button>
             {error && <p>{error}</p>}
             <ul>
                 {filteredEmployeeData.map(employee => (
-                    <li key={employee.id}>{`Name: ${employee.name}, Email: ${employee.email}`}</li>
+                    <li    style={{ 
+                        marginBottom: '10px', 
+                        border: '1px solid #ccc', 
+                        padding: '10px', 
+                        boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+                        borderRadius: '5px',
+                        cursor: 'pointer',
+                        transition: 'background-color 0.3s, color 0.3s',
+                        color: '#000',
+                        backgroundColor: 'black',
+                    }}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}   key={employee.id}>{`Name: ${employee.name}, Email: ${employee.email}`}</li>
                 ))}
             </ul>
         </div>
