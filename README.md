@@ -31,11 +31,13 @@ The system utilizes a centralized database to store employee information and the
 The Employee Availability Tracking System offers a sophisticated solution for monitoring and managing employee presence within defined time intervals. By leveraging real-time data and customizable features, it enhances organizational efficiency and facilitates informed decision-making.
  
 
-# Tech Stack
+## 🛠 Tech Stack
 
-**Client:** React,BootStrap,CSS,
+**Frontendt:** React Js,BootStrap,CSS,
 
-**Server:** Node, Express,Prisma,Prisma Client,PostgreSQL
+**Backend:** Node Js, Express Js,Prisma,Prisma Client,PostgreSQL
+
+**Deployment:** Vercel
 
 
 # Introduction
@@ -245,10 +247,3 @@ After thorough development and testing, I have deployed my project on Vercel,
 
 
 ![Screenshot 2024-05-21 133133](https://github.com/SHARMA-1729/Assignment/assets/129518514/ab7e06c9-1677-4592-b4a2-d8025dc5ba8e)
-# Introduction
-🔷 [Prisa]() is an open-source ORM for [Node.js]() [Prisa_Client]():Auto-generated and type-safe database client🔷
-[Prisma Migrate]():Declarative data modeling and customizable migrations
-🔷 [Prisma Studio](): A GUI to view and edit data in your database.
-
-
-
