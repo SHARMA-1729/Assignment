@@ -29,7 +29,7 @@ const AddEmployee = () => {
         const checkOutDate = new Date(checkOut);
 
         e.preventDefault();
-        await axios.post('http://localhost:4000/employee', {
+        await axios.post('http://localhost:4000/', {
             name: name,
             email: email,
             phoneNumber: phoneNumber,
