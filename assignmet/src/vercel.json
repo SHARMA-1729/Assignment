@@ -1,0 +1,18 @@
+{
+    "routes":[
+        {
+           "src":"/",
+           "dest":"/"
+        },
+        {
+            "src":"/Status",
+           "dest":"/"
+        },
+
+        {
+            "src":"/Online",
+            "dest":"/"
+        }
+
+    ]
+}
