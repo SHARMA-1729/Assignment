@@ -1,17 +1,44 @@
 
-# Project Title
-Assignment->Employee Status
+#                           Project Title:)
+# Employee Availability Tracking System
 
 
 
-## Tech Stack
+
+# About Project:)
+
+In modern office environments, monitoring employee availability during specific time intervals is crucial for effective resource management and task allocation. To address this need, we have developed an Employee Availability Tracking System. This system enables real-time monitoring of employee presence and availability within designated time intervals.
+# Features
+
+- Real-time Monitoring: The system provides real-time updates on employee presence within predefined time intervals.
+- Customizable Time Intervals: Administrators can define and customize time intervals based on organizational requirements.
+- Employee Identification: Each employee is uniquely identified within the system, allowing accurate tracking of their availability.
+- Availability Status: Employees are categorized as "Available" or "Unavailable" during specific time intervals based on their presence.
+- Dynamic Reporting: Comprehensive reports can be generated to identify available employees during any given time interval.
+- Administrative Controls: Administrators have privileged access to manage employee profiles, time intervals, and generate reports.
+
+
+# Implementation:)
+The system utilizes a centralized database to store employee information and their corresponding availability status during specific time intervals. A user-friendly interface facilitates easy interaction for both administrators and employees.
+# Usage:)
+- Administrator: The administrator configures the system settings, defines time intervals, and monitors employee availability through the provided dashboard.
+- Employee: Employees log in to the system to update their availability status during designated time intervals.
+# Benefits:)
+- Efficient Resource Allocation: By knowing the availability status of employees, tasks can be allocated more efficiently, optimizing productivity.
+- Transparency: The system promotes transparency by providing clear visibility into employee presence during specified intervals, fostering accountability.
+- Improved Planning: Managers can plan meetings, assignments, and project deadlines more effectively by considering employee availability.
+#  Conclusion:)
+The Employee Availability Tracking System offers a sophisticated solution for monitoring and managing employee presence within defined time intervals. By leveraging real-time data and customizable features, it enhances organizational efficiency and facilitates informed decision-making.
+ 
+
+# Tech Stack
 
 **Client:** React,BootStrap,CSS,
 
 **Server:** Node, Express,Prisma,Prisma Client,PostgreSQL
 
 
-## Introduction
+# Introduction
 🔷 [Prisa]() is an open-source ORM for [Node.js]() [Prisa_Client]():Auto-generated and type-safe database client🔷
 [Prisma Migrate]():Declarative data modeling and customizable migrations
 🔷 [Prisma Studio](): A GUI to view and edit data in your database.
@@ -26,7 +53,7 @@ Assignment->Employee Status
 These tools aim to increase an application developer’s productivity in their database workflows.
 
 Prisma currently supports PostgreSQL, MySQL, SQLite, SQL Server (preview) and MongoDB (preview).
-## Prerequisites
+# Prerequisites
 To practice this lesson, you need to have the following:
 
 *Node.js v10 to v14 is installed on your computer.
@@ -34,7 +61,7 @@ To practice this lesson, you need to have the following:
 *PostgreSQL v13 is running which can easily set up with Docker as demonstrated here.
 
 *Optionally, VsCode and a nice cup of tea ☕️
-## Installation
+# Installation
 
 server.js
 ```bash
@@ -64,7 +91,7 @@ This will print the following output:
  ✔ Your Prisma schema was created at prisma/schema.prisma
   You can now open it in your favorite editor.
 ```
-## Setting Up Prisma with PostgreSQL
+# Setting Up Prisma with PostgreSQL
 In this step, you will install the Prisma CLI, create your initial Prisma schema file, and set up PostgreSQL with Docker and connect Prisma to it. The Prisma schema is the main configuration file for your Prisma setup and contains your database schema.
 
 Start by installing the Prisma CLI with the following command:
@@ -82,7 +109,7 @@ DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${DB_HOST}:${DB_
 }
 ```
 
-## Defining Your Data Model and Creating Database Tables
+# Defining Your Data Model and Creating Database Tables
 In this step, you will define your data model in the Prisma schema file. This data model will then be mapped to the database with Prisma Migrate, which will generate and send the SQL statements for creating the tables that correspond to your data model. Since you’re building a playlist application, the main entities of the application will be artists and songs.
 
 Prisma uses its own data modeling language to define the shape of your application data.
@@ -171,12 +198,12 @@ First, go ahead and install Prisma Client in your project by opening up your ter
 ```bash
  $    npm install prisma -D
 ```
-## Server Start
+# Server Start
 
 ```bash
  $    npm install
 ```
-## Frontend
+# Frontend
 assignmet
 
 ```bash
@@ -192,14 +219,15 @@ for node module instation
 for express intalation
 
 
-## Frontend Start
+# Frontend Start
 
 ```bash
  $    npm start
 ```
 To run frontend server
-## Deployment
-##  Screenshot
+# Deployment
+After thorough development and testing, I have deployed my project on Vercel,
+#  Screenshot
 
 ![Screenshot 2024-05-21 133009](https://github.com/SHARMA-1729/Assignment/assets/129518514/628af7f8-dd30-442c-9abe-9df327ed4157)
 
@@ -217,3 +245,10 @@ To run frontend server
 
 
 ![Screenshot 2024-05-21 133133](https://github.com/SHARMA-1729/Assignment/assets/129518514/ab7e06c9-1677-4592-b4a2-d8025dc5ba8e)
+# Introduction
+🔷 [Prisa]() is an open-source ORM for [Node.js]() [Prisa_Client]():Auto-generated and type-safe database client🔷
+[Prisma Migrate]():Declarative data modeling and customizable migrations
+🔷 [Prisma Studio](): A GUI to view and edit data in your database.
+
+
+
