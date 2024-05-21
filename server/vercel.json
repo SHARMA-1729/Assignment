@@ -1,27 +1,12 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "assignmet/package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "assignmet/build"
-        }
-      },
-      {
-        "src": "server/server.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "/server/index.js"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/assignmet/build/$1"
-      }
-    ]
-  }
-  
+  "version":2,
+  "build":[
+    {"src":".js","use":"@vercel/node"}
+  ],
+  "routes":[
+    {
+      "src":"/(.*)",
+      "dest":"/"
+    }
+  ]
+}
