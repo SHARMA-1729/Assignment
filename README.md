@@ -1,5 +1,5 @@
 
-#                           Project Title:)
+## 🚀                     Project Title:)
 # Employee Availability Tracking System
 
 
@@ -8,7 +8,7 @@
 # About Project:)
 
 In modern office environments, monitoring employee availability during specific time intervals is crucial for effective resource management and task allocation. To address this need, we have developed an Employee Availability Tracking System. This system enables real-time monitoring of employee presence and availability within designated time intervals.
-# Features
+# Features:)
 
 - Real-time Monitoring: The system provides real-time updates on employee presence within predefined time intervals.
 - Customizable Time Intervals: Administrators can define and customize time intervals based on organizational requirements.
@@ -31,7 +31,7 @@ The system utilizes a centralized database to store employee information and the
 The Employee Availability Tracking System offers a sophisticated solution for monitoring and managing employee presence within defined time intervals. By leveraging real-time data and customizable features, it enhances organizational efficiency and facilitates informed decision-making.
  
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack:)
 
 **Frontendt:** React Js,BootStrap,CSS,
 
@@ -39,23 +39,19 @@ The Employee Availability Tracking System offers a sophisticated solution for mo
 
 **Deployment:** Vercel
 
-
-# Introduction
 🔷 [Prisa]() is an open-source ORM for [Node.js]() [Prisa_Client]():Auto-generated and type-safe database client🔷
 [Prisma Migrate]():Declarative data modeling and customizable migrations
 🔷 [Prisma Studio](): A GUI to view and edit data in your database.
 
 
-
-
-## Screenshots
+# Screenshots:)
 
 ![App Screenshot](https://camo.githubusercontent.com/8ca47797f827bf0787f42a2f0b23e223b624c548d5f1a73bae0e0416938228f6/68747470733a2f2f696d6775722e636f6d2f43544768515a392e706e67)
 
 These tools aim to increase an application developer’s productivity in their database workflows.
 
 Prisma currently supports PostgreSQL, MySQL, SQLite, SQL Server (preview) and MongoDB (preview).
-# Prerequisites
+# Prerequisites:)
 To practice this lesson, you need to have the following:
 
 *Node.js v10 to v14 is installed on your computer.
@@ -63,7 +59,7 @@ To practice this lesson, you need to have the following:
 *PostgreSQL v13 is running which can easily set up with Docker as demonstrated here.
 
 *Optionally, VsCode and a nice cup of tea ☕️
-# Installation
+# Installation:)
 
 server.js
 ```bash
@@ -93,7 +89,7 @@ This will print the following output:
  ✔ Your Prisma schema was created at prisma/schema.prisma
   You can now open it in your favorite editor.
 ```
-# Setting Up Prisma with PostgreSQL
+# Setting Up Prisma with PostgreSQL:)
 In this step, you will install the Prisma CLI, create your initial Prisma schema file, and set up PostgreSQL with Docker and connect Prisma to it. The Prisma schema is the main configuration file for your Prisma setup and contains your database schema.
 
 Start by installing the Prisma CLI with the following command:
@@ -111,7 +107,7 @@ DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${DB_HOST}:${DB_
 }
 ```
 
-# Defining Your Data Model and Creating Database Tables
+# Defining Your Data Model and Creating Database Tables:)
 In this step, you will define your data model in the Prisma schema file. This data model will then be mapped to the database with Prisma Migrate, which will generate and send the SQL statements for creating the tables that correspond to your data model. Since you’re building a playlist application, the main entities of the application will be artists and songs.
 
 Prisma uses its own data modeling language to define the shape of your application data.
@@ -187,7 +183,7 @@ CREATE TABLE "Employee" (
 -- CreateIndex
 CREATE UNIQUE INDEX "Employee_email_key" ON "Employee"("email");
 ```
-## Exploring Prisma Client Queries in a Plain Script
+# Exploring Prisma Client Queries in a Plain Script:)
 Prisma Client is an auto-generated and type-safe query builder that you can use to programmatically read and write data in a database from a Node.js or TypeScript application. You will use it for database access within your REST API routes, replacing traditional ORMs, plain SQL queries, custom data access layers, or any other method of talking to a database.
 
 In this step, you will install Prisma Client and get familiar with the queries you can send with it. Before implementing the routes for your REST API in the next steps, you will first explore some of the Prisma Client queries in a plain, executable script.
@@ -200,7 +196,7 @@ First, go ahead and install Prisma Client in your project by opening up your ter
 ```bash
  $    npm install prisma -D
 ```
-# Server Start
+# Server Start:)
 
 ```bash
  $    npm install
@@ -221,15 +217,15 @@ for node module instation
 for express intalation
 
 
-# Frontend Start
+# Frontend Start:)
 
 ```bash
  $    npm start
 ```
 To run frontend server
-# Deployment
+# Deployment:)
 After thorough development and testing, I have deployed my project on Vercel,
-#  Screenshot
+#  Screenshot:)
 
 ![Screenshot 2024-05-21 133009](https://github.com/SHARMA-1729/Assignment/assets/129518514/628af7f8-dd30-442c-9abe-9df327ed4157)
 
