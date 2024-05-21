@@ -20,6 +20,8 @@ In modern office environments, monitoring employee availability during specific 
 
 # Implementation:)
 The system utilizes a centralized database to store employee information and their corresponding availability status during specific time intervals. A user-friendly interface facilitates easy interaction for both administrators and employees.
+
+
 # Usage:)
 - Administrator: The administrator configures the system settings, defines time intervals, and monitors employee availability through the provided dashboard.
 - Employee: Employees log in to the system to update their availability status during designated time intervals.
@@ -198,11 +200,22 @@ First, go ahead and install Prisma Client in your project by opening up your ter
 ```
 # Server Start:)
 
+cd server
+
 ```bash
  $    npm install
 ```
+# To Run Database:)
+run at http://localhost5556
+```bash
+ $    npx prisma studio
+```
+
+![Screenshot 2024-05-21 200212](https://github.com/SHARMA-1729/Assignment/assets/129518514/0753848a-5732-4640-9386-3ffaae5e3785)
+
+
 # Frontend
-assignmet
+cd assignmet
 
 ```bash
  $    npm install -y
@@ -223,9 +236,7 @@ for express intalation
  $    npm start
 ```
 To run frontend server
-# Deployment:)
-After thorough development and testing, I have deployed my project on Vercel,
-#  Screenshot:)
+# Screenshot:)
 
 ![Screenshot 2024-05-21 133009](https://github.com/SHARMA-1729/Assignment/assets/129518514/628af7f8-dd30-442c-9abe-9df327ed4157)
 
@@ -243,3 +254,29 @@ After thorough development and testing, I have deployed my project on Vercel,
 
 
 ![Screenshot 2024-05-21 133133](https://github.com/SHARMA-1729/Assignment/assets/129518514/ab7e06c9-1677-4592-b4a2-d8025dc5ba8e)
+# Deployment:)
+After thorough development and testing, I have deployed my project on Vercel,
+
+- Install Vercel CLI:
+First, you need to install the Vercel CLI if you haven't already. Run the following command in your terminal:
+
+```bash
+ $  npm install -g vercel
+
+```
+
+- Initialize Vercel in Your Project:
+Run the following command to initialize the project. This will prompt you to set up and link the project with Vercel:
+
+
+```bash
+ $  vercel
+
+```
+- Deploy your project:
+
+
+```bash
+ $  vercel --prod
+
+```
